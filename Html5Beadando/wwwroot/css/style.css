@@ -1,0 +1,167 @@
+﻿body {
+    /*background-image: url(../Images/hills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat:repeat-y;*/
+    background: url(../images/hills.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header{
+    padding: 1vh, 1vw, 1vh, 1vw;
+    height:5vh;
+}
+/*.headerLeft {
+    display:inline-block;
+    text-align: left;
+    float:left;
+    width: 19vw;
+}
+.headerCenter{
+    display: inline-block;
+    text-align: center;
+    width: 60vw;
+}
+.headerRight{
+    display:inline-block;
+    text-align: right;
+    float:right;
+    width: 15vw;
+}*/
+
+table{
+    width:100%;
+}
+.tdSmall{
+    width:20%;
+}
+.tdBig{
+    width:60%;
+}
+.leftDiv{
+    text-align:left;
+}
+.centerDiv{
+    text-align:center;
+}
+.rightDiv{
+    text-align:right;
+}
+
+.headerLink{
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration:none;
+    /*font-size:2vh;*/
+}
+.headerLink:hover{
+    color:#dca5a5
+
+}
+img{
+    width: 10vw;
+    height: 5vh;
+}
+
+
+
+.footer{
+    bottom:1vh;
+    position: absolute;
+}
+.footerDiv{
+    text-align:center;
+    width: 99vw;
+}
+
+
+.mainpage{
+    color:white;
+    /*background-color:black;*/
+}
+.mainpageContent {
+    display:block;
+    width:50vw;
+    margin-left:25vw;
+    height: 50vh;
+    margin-top: 25vh;
+    text-align: center;
+    /*background-color:yellow;*/
+
+}
+.bigtext {
+    /*font-size: 5vh;*/
+    display: block;
+    margin-top: 10vh;
+    font-family: 'Comic Sans MS';
+    
+}
+.smalltext{
+    display:block;
+    /*font-size:2vh;*/
+    margin-top:-2vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mainpageGombok{
+    display:block;
+    margin-top:3vh;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:1vh 1vh;
+    /*font-size:1vw;*/
+    
+    
+}
+
+.abutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 1vh 1vh;
+    /*font-size:1vw;*/
+}
+
+.buttonblue {
+    background-color: blue;
+    color: white;
+}
+
+  .buttonblue:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+
+.buttonred {
+    background-color: red;
+    color: white;
+}
+
+    .buttonred:hover {
+        background-color: #f44336;
+        color: white;
+    }
